@@ -1,12 +1,17 @@
 
 import './App.css'
+import ThemeSwitcher from './components/ThemeSwitcher/ThemeSwitcher'
 
 function App() {
 
 
   return (
    <>
-   app setup</>
+   <ThemeSwitcher/>
+   
+   <div className='bg-white dark:bg-black h-full w-full'>
+    hello
+    </div></>
   )
 }
 
