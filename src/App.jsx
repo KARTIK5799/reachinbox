@@ -1,18 +1,8 @@
-
-import './App.css'
-import ThemeSwitcher from './components/ThemeSwitcher/ThemeSwitcher'
+import './App.css';
+import Layout from './layout';
 
 function App() {
-
-
-  return (
-   <>
-   <ThemeSwitcher/>
-   
-   <div className='bg-white dark:bg-black h-full w-full'>
-    hello
-    </div></>
-  )
+  return <Layout />;
 }
 
-export default App
+export default App;
